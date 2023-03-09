@@ -1,0 +1,98 @@
+h1{
+	text-align:center;
+	border:2px solid black    ;
+	background-color:gray   ; 
+}
+body {
+    text-align: center;
+    margin: 5;
+    padding: 5;
+    background: #DDD;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+  body{
+    background-color : rgb(190, 190, 190);
+}
+header {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    border: rgb(99, 67, 67);
+    border-style: none;
+    border-radius: 10px;
+    -webkit-box-shadow:0px 0px 40px 0px #9e9e9e ;
+    -moz-box-shadow:0px 0px 40px 0px #9e9e9e ;
+    box-shadow:0px 0px 40px 0px #9e9e9e ;
+}
+li {
+    display: list-item;
+
+}
+li a {
+    font-family: "Prompt", sans-serif;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.reseau  {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    border: rgb(99, 67, 67);
+    border-style: none;
+    -webkit-box-shadow:0px 0px 40px 0px #9e9e9e ;
+    -moz-box-shadow:0px 0px 40px 0px #9e9e9e ;
+    box-shadow:0px 0px 40px 0px #9e9e9e ;
+}
+footer .reseau li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.tablela{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+h1 {
+    text-align:center;
+}
+
+.formulaire {
+    background-color: white;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 0 auto;
+    padding:2%;
+    border-radius: 10px;
+}
+
+.ligne-formulaire {
+    text-align: center;
+    margin-top:2%;
+}
+  @media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
